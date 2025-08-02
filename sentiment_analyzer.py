@@ -13,7 +13,7 @@ NEWSAPI_BASE_URL = "https://newsapi.org/v2/everything"
 # Download VADER lexicon if not already downloaded
 try:
     nltk.data.find('sentiment/vader_lexicon.zip')
-except nltk.downloader.DownloadError:
+except Exception as e:
     nltk.download('vader_lexicon', quiet=True)
 
 @st.cache_resource
@@ -106,4 +106,5 @@ def fetch_news_headlines(query: str, api_key: str, days_back: int = 7) -> list[d
     except Exception as e:
         st.error(f"An unexpected error occurred while fetching news: {e}")
         return []
+
 
