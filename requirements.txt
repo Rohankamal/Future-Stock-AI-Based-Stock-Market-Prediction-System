@@ -1,3 +1,4 @@
+mysql-connector-python
 streamlit
 pandas
 numpy
@@ -6,4 +7,5 @@ yfinance
 bcrypt
 ta
 tensorflow
+
 nltk
