@@ -1,11 +1,6 @@
-mysql-connector-python
 streamlit
 pandas
 numpy
-plotly
-yfinance
+matplotlib
+scikit-learn
 bcrypt
-ta
-tensorflow
-
-nltk
