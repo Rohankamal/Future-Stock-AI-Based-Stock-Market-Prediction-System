@@ -8,6 +8,8 @@ autokeras
 plotly
 yfinance
 tensorflow
+nltk
+
 
 
 
