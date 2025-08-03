@@ -7,5 +7,7 @@ bcrypt
 autokeras
 plotly
 yfinance
+tensorflow
+
 
 
